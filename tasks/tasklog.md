@@ -13,10 +13,10 @@ Reihenfolge: strikt aufsteigend nach Nummer.
 (leer)
 
 ## Backlog
-- 13 — GitHub Action Build+Deploy bei Push (ultimativ) (`tasks/13-github-action.md`)
-  Ins Backlog verschoben am 2026-11-14 (User: „irgendwann später, nicht als
-  Nächstes"). Spec-Datei bleibt in `tasks/`; Reihenfolge-Regel (aufsteigend)
-  gilt weiter, sobald er wieder aktiv ist.
+- GitHub Action Build+Deploy bei Push (ultimativ) (`tasks/backlog-github-action.md`)
+  Unnummerierter Backlog-Punkt (User, 2026-11-14: „irgendwann später, nicht
+  als Nächstes — einfach irgendein Task"). Bei Aktivierung mit der nächsten
+  freien Nummer in „Pending" aufnehmen.
 
 ## Completed
 

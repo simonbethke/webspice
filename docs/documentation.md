@@ -17,8 +17,8 @@ das strukturierte AST `Schematic` (siehe Abschnitt "Model / AST").
 - Aktueller Stand: **Tasks 01–12 + 14 abgeschlossen** (Parsing, Robustheit,
   WASM, Web-Frontend MVP, `.asy`-Symbol-Rendering, LTspice-Optik,
   LTspice-Referenz-Korrekturen, LTspice-Abgleich 2, GitHub-Pages-Deployment);
-  Task 13 (Build+Deploy via GitHub Actions) im Backlog (nicht als Nächstes,
-  Tasklog).
+  Backlog (unnummeriert, nicht als Nächstes): Build+Deploy via
+  GitHub Actions — s. Tasklog.
 
 ## Projektstruktur
 - `src/` — Rust-Library (Parser, AST, Fehler); `src/wasm.rs` = WASM-Export
@@ -466,7 +466,7 @@ Rebuild-Skript (außerhalb von npm): `web/build.ps1` (Windows) bzw.
 ### Deployment (GitHub Pages, Task 12)
 
 Veröffentlichung des Build-Outputs `web/www/` über GitHub Pages
-("Deploy from branch") — ohne CI (CI ist Task 13).
+("Deploy from branch") — ohne CI (CI-Punkt liegt im Backlog, s. Tasklog).
 
 - **Branch `gh-pages`**: Inhalt = Inhalte von `web/www/` im **Branch-Root**
   (via `git subtree push`). Begründung: Pages' Branch-Deployment liefert nur

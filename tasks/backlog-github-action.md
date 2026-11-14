@@ -1,4 +1,4 @@
-# 13 — GitHub Action: Build & Deploy bei Push (ultimativ)
+# GitHub Action: Build & Deploy bei Push (ultimativ)
 
 Ziel: Push auf `main` → automatisches Build + Deploy auf Pages,
 nachvollziehbar und cache-bar.
