@@ -1,0 +1,17 @@
+{
+  "name": "webspice",
+  "type": "module",
+  "description": "Parser library for LTspice .asc schematic files",
+  "version": "0.1.0",
+  "files": [
+    "wasm.js",
+    "wasm_bg.wasm",
+    "wasm.d.ts",
+    "wasm_bg.wasm.d.ts"
+  ],
+  "main": "wasm.js",
+  "types": "wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

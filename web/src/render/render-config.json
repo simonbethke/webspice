@@ -1,0 +1,17 @@
+{
+  "fontFamily": "Tahoma",
+  "fontSize": 10,
+  "fontBold": true,
+  "penThickness": 1,
+  "wireColor": "#0000C0",
+  "symbolColor": "#0000C0",
+  "textColor": "#000000",
+  "netlabelColor": "#0000C0",
+  "pinColor": "#0000C0",
+  "gridPointSize": 6,
+  "gridPointColor": "#0000C0",
+  "unconnectedPinColor": "#C00000",
+  "showTitleBlocks": true,
+  "markUnconnectedPins": true,
+  "showGridPoints": true
+}

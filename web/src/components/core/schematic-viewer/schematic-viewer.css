@@ -1,0 +1,79 @@
+:host {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.viewer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+}
+
+.toolbar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 8px 12px;
+  border-bottom: 1px solid #dddddd;
+  background: #f7f7f7;
+  font-size: 14px;
+}
+
+.hint {
+  color: #666666;
+}
+
+.zoom {
+  display: flex;
+  gap: 4px;
+  margin-left: auto;
+}
+
+.zoom button {
+  min-width: 34px;
+  padding: 4px 8px;
+  font-size: 14px;
+}
+
+.file-picker {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.status {
+  padding: 6px 12px;
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 12px;
+  background: #eef6ee;
+  border-bottom: 1px solid #cccccc;
+}
+
+.error-panel {
+  margin: 8px 12px 0;
+  padding: 8px 12px;
+  color: #ffffff;
+  background: #c62828;
+  font-family: ui-monospace, Consolas, monospace;
+  white-space: pre-wrap;
+}
+
+.canvas {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+}

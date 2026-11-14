@@ -1,0 +1,6 @@
+node_modules/
+.stencil/
+.repro/
+
+# www/ wird committet (GitHub Pages, docs „Deployment");
+# www/.nojekyll wird vom Build-Skript (web/build.ps1 / build.sh) erzeugt.
