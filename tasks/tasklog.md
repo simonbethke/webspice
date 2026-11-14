@@ -10,7 +10,13 @@ und die Task-Datei löschen. Danach beginnt der nächste Task.
 Reihenfolge: strikt aufsteigend nach Nummer.
 
 ## Pending
+(leer)
+
+## Backlog
 - 13 — GitHub Action Build+Deploy bei Push (ultimativ) (`tasks/13-github-action.md`)
+  Ins Backlog verschoben am 2026-11-14 (User: „irgendwann später, nicht als
+  Nächstes"). Spec-Datei bleibt in `tasks/`; Reihenfolge-Regel (aufsteigend)
+  gilt weiter, sobald er wieder aktiv ist.
 
 ## Completed
 

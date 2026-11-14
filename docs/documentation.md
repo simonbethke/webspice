@@ -17,7 +17,8 @@ das strukturierte AST `Schematic` (siehe Abschnitt "Model / AST").
 - Aktueller Stand: **Tasks 01–12 + 14 abgeschlossen** (Parsing, Robustheit,
   WASM, Web-Frontend MVP, `.asy`-Symbol-Rendering, LTspice-Optik,
   LTspice-Referenz-Korrekturen, LTspice-Abgleich 2, GitHub-Pages-Deployment);
-  Task 13 noch offen (Build+Deploy via GitHub Actions).
+  Task 13 (Build+Deploy via GitHub Actions) im Backlog (nicht als Nächstes,
+  Tasklog).
 
 ## Projektstruktur
 - `src/` — Rust-Library (Parser, AST, Fehler); `src/wasm.rs` = WASM-Export
