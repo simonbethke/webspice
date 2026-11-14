@@ -14,10 +14,10 @@ das strukturierte AST `Schematic` (siehe Abschnitt "Model / AST").
 - Im Scope: Zeilen-Parsing, AST, Fehler-Reporting (mit Zeilennummern);
   Rendering läuft im Web-Frontend (siehe „Web-Frontend (MVP)")
 - **Nicht** im Scope: CLI, Netlist-Erzeugung, Simulation
-- Aktueller Stand: **Tasks 01–11 + 14 abgeschlossen** (Parsing, Robustheit,
+- Aktueller Stand: **Tasks 01–12 + 14 abgeschlossen** (Parsing, Robustheit,
   WASM, Web-Frontend MVP, `.asy`-Symbol-Rendering, LTspice-Optik,
-  LTspice-Referenz-Korrekturen, LTspice-Abgleich 2); Tasks 12–13 noch offen
-  (GitHub-Deployment).
+  LTspice-Referenz-Korrekturen, LTspice-Abgleich 2, GitHub-Pages-Deployment);
+  Task 13 noch offen (Build+Deploy via GitHub Actions).
 
 ## Projektstruktur
 - `src/` — Rust-Library (Parser, AST, Fehler); `src/wasm.rs` = WASM-Export
@@ -541,6 +541,10 @@ Veröffentlichung des Build-Outputs `web/www/` über GitHub Pages
   `jtk3.asc` gerendert (Status `… symbols: 192 … Symbole: 188/192`,
   619 Wires/42 Flags), alle 27 Ressourcen (Bundle, `wasm_bg.wasm`,
   18× `.asy`, `.nojekyll`) mit 200, keine Konsolenfehler
+- `web/screenshots/gh-pages-live.png` — Task 12, Live-Abnahme
+  (https://simonbethke.github.io/webspice/): `jtk3.asc` gerendert
+  (Status `… symbols: 192 … Symbole: 188/192`), alle 26 Requests mit 200
+  (Bundle, `wasm.js`, 18× `.asy`), keine Konsolenfehler
 
 ### Grenzen
 - `.asy`: keine `SYMKEY`-/Parameter-Bindung, Window-Slots nur {0,3,39},
@@ -775,7 +779,10 @@ Veröffentlichung des Build-Outputs `web/www/` über GitHub Pages
   (`target/`); lokaler Subpfad-Check: `jtk3.asc` rendert, alle 27
   Ressourcen 200, keine Konsolenfehler (siehe „Evidence").
   Publish (User): `git subtree push --prefix web/www origin gh-pages` +
-  Pages-Settings, s. Sektion „Deployment“.
+  Pages-Settings, s. Sektion „Deployment“; **Live-Abnahme:** Seite live unter
+  https://simonbethke.github.io/webspice/ — `jtk3.asc` gerendert
+  (Symbole 188/192), alle 26 Requests mit 200, keine Konsolenfehler
+  (siehe „Evidence“: `gh-pages-live.png`).
 - 2026-11-13 — LTspice-Optik-Abgleich 2 (jtk3.asc, `image.png`-Referenz;
   Task 14): (1) **Window-Justification edge-Modell**: Plain-`Left` →
   `end` (rechte Textkante am Anker, Text wächst nach links), Plain-`Right`

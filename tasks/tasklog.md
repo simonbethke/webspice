@@ -10,10 +10,12 @@ und die Task-Datei löschen. Danach beginnt der nächste Task.
 Reihenfolge: strikt aufsteigend nach Nummer.
 
 ## Pending
-- 12 — GitHub Pages, schnellster funktionierender Weg (`tasks/12-github-pages.md`)
 - 13 — GitHub Action Build+Deploy bei Push (ultimativ) (`tasks/13-github-action.md`)
 
 ## Completed
+
+### 12 — GitHub Pages, schnellster funktionierender Weg
+2026-11-14 17:58
 
 ### 14 — LTspice-Optik-Abgleich 2 (jtk3.asc, LTspice-Referenz)
 2026-11-14 15:01
