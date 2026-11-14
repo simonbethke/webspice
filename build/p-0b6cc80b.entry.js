@@ -1,0 +1,1 @@
+import{r,h as a}from"./p-Dpk_ikf5.js";const e=class{constructor(a){new.target===e&&r(this,a)}render(){return a("schematic-viewer",{key:"2d9dfa16a7fef776a3bb2b028da172fa94bd3561"})}};export{e as app_root}
